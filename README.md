@@ -19,7 +19,7 @@ Through this lab, we will try to apply all the above concepts, in order to build
 We need to build a `Like functionality`. -> which means, you need to create two buttons, which can like and unlike.
 If someone clicks on the like button, the `like counter` should increment by one, and if someone click on the unlike button, the `like counter` should decrease by one, like shown below:
 
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/likeCounter.gif)
+![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/LikeCount.gif)
 
 ### Progression 1:
 
@@ -27,7 +27,7 @@ If someone clicks on the like button, the `like counter` should increment by one
 2. Create three files: 
     1. `Actions.jsx` -> which will contain all your actions.
     2. `Reducer.jsx` -> which will contain all your reducers.
-    3. `LikeCounter.jsx` -> which will contain the store. You have to write the `jsx` for the application in this component. ( your `app.jsx` should render `LikeCounter` only.)
+    3. `LikeCount.jsx` -> which will contain the store. You have to write the `jsx` for the application in this component. ( your `app.jsx` should render `LikeCount` only.)
 
 ### Progression 2:
 
@@ -44,7 +44,7 @@ Based on the type of action (in our case there are only two types of actions ->`
 
 ### Progression 4:
 
-Inside `LikeCounter.jsx` -> create a store, and pass `reducer` (the same reducer which you created in the previous progression) as an argument to it.
+Inside `LikeCount.jsx` -> create a store, and pass `reducer` (the same reducer which you created in the previous progression) as an argument to it.
 
 Use `dispatch` to dispatch the action to the store.
 
